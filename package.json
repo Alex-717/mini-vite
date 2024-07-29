@@ -1,0 +1,22 @@
+{
+  "name": "mini-vite",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./src/server/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "koa": "^2.15.3",
+    "vue": "^3.4.34"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@vue/compiler-dom": "^3.4.34",
+    "@vue/compiler-sfc": "^3.4.34",
+    "nodemon": "^3.1.4"
+  }
+}
